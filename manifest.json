@@ -10,7 +10,7 @@
 	"icons": {
 		"72": "icon.png"
 	},
-	"launch_path": "models/login/login.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
+	"launch_path": "models/main/main.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
 	"developer": {
 		"name": "",/*开发者名称*/
 		"email": "",/*开发者邮箱地址*/
@@ -247,7 +247,8 @@
 					"common/app.css"
 				],
 				"refer": [
-					"models/setting/setting.html"
+					"models/setting/setting.html",
+					"models/login/login.html"
 				],
 				"priority": 0
 			},
@@ -263,7 +264,9 @@
 					"common/mui.css",
 					"common/app.css"
 				],
-				"refer": [],
+				"refer": [
+					"models/chat/im-chat.html"
+				],
 				"priority": 0
 			},
 			"models/message/message.html": {
@@ -274,9 +277,16 @@
 					"common/mui.js",
 					"common/mui.css",
 					"img/avatar.png",
-					"common/app.css"
+					"common/app.css",
+					"models/tuijian/tuijian.html"
 				],
-				"refer": [],
+				"refer": [
+					"models/redian/redian.html",
+					"models/yule/yule.html",
+					"models/shehui/shehui.html",
+					"models/beijing/beijing.html",
+					"models/message/message.html"
+				],
 				"priority": 0
 			},
 			"models/scan/scan.html": {
@@ -334,6 +344,13 @@
 					"common/fonts/iconfont.css"
 				],
 				"refer": [],
+				"priority": 0
+			},
+			"models/tuijian/tuijian.html": {
+				"resources": [],
+				"refer": [
+					"models/tuijian/detail.html"
+				],
 				"priority": 0
 			}
 		},

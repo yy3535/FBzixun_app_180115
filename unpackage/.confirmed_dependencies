@@ -1,155 +1,171 @@
 {
-  "models/login/login.html": {
-    "resources": [
-      "models/login/login.css",
-      "models/login/login.js",
-      "common/mui.js",
-      "common/mui.css",
-      "common/fonts/mui.ttf",
-      "common/bughd.min.js.js"
-    ],
-    "refer": [
-      "models/main/main.html"
-    ]
-  },
-  "models/main/main.html": {
-    "resources": [
-      "common/fonts/mui.ttf",
-      "common/mui.js",
-      "common/mui.css",
-      "models/main/main.js",
-      "models/message/message.html",
-      "common/fonts/iconfont.css",
-      "common/fonts/iconfont.woff",
-      "models/main/main.css"
-    ],
-    "refer": [
-      "models/discover/discover.html",
-      "models/mine/mine.html",
-      "models/address-book/address-book.html",
-      "models/message/message.html"
-    ]
-  },
-  "models/discover/discover.html": {
-    "resources": [
-      "models/discover/discover.js",
-      "models/discover/discover.css",
-      "common/fonts/mui.ttf",
-      "common/mui.js",
-      "common/mui.css",
-      "img/avatar.png",
-      "models/discover/friend.png",
-      "models/discover/shake.png",
-      "models/discover/scan.png",
-      "models/discover/near.png",
-      "models/discover/shopping.png",
-      "models/discover/game.png",
-      "common/app.css",
-      "common/bughd.min.js.js"
-    ],
-    "refer": [
-      "models/shake/shake.html",
-      "models/scan/scan.html"
-    ]
-  },
-  "models/mine/mine.html": {
-    "resources": [
-      "models/mine/mine.js",
-      "models/mine/mine.css",
-      "common/mui.js",
-      "common/mui.css",
-      "img/avatar.png",
-      "common/fonts/mui.ttf",
-      "models/mine/code.png",
-      "models/mine/photo.png",
-      "models/mine/collection.png",
-      "models/mine/card.png",
-      "models/mine/wallet.png",
-      "models/mine/setting.png",
-      "models/mine/face.png",
-      "common/app.css"
-    ],
-    "refer": [
-      "models/setting/setting.html"
-    ]
-  },
-  "models/address-book/address-book.html": {
-    "resources": [
-      "models/address-book/address-book.js",
-      "models/address-book/address-book.css",
-      "common/mui.indexedlist.css",
-      "common/mui.indexedlist.js",
-      "common/fonts/mui.ttf",
-      "img/avatar.png",
-      "common/mui.js",
-      "common/mui.css",
-      "common/app.css"
-    ],
-    "refer": []
-  },
-  "models/message/message.html": {
-    "resources": [
-      "models/message/message.js",
-      "models/message/message.css",
-      "common/fonts/mui.ttf",
-      "common/mui.js",
-      "common/mui.css",
-      "img/avatar.png",
-      "common/app.css"
-    ],
-    "refer": []
-  },
-  "models/scan/scan.html": {
-    "resources": [
-      "common/fonts/mui.ttf",
-      "common/mui.js",
-      "models/scan/shakedown.png",
-      "models/scan/shakeup.png",
-      "common/app.css",
-      "common/mui.css",
-      "models/scan/scan.js",
-      "models/scan/scan.css"
-    ],
-    "refer": []
-  },
-  "models/shake/shake.html": {
-    "resources": [
-      "models/shake/shake.css",
-      "models/shake/shake.js",
-      "models/shake/shakedown.png",
-      "models/shake/shakeup.png",
-      "common/fonts/mui.ttf",
-      "common/mui.js",
-      "common/app.css",
-      "common/mui.css"
-    ],
-    "refer": []
-  },
-  "models/setting/setting.html": {
-    "resources": [
-      "models/setting/lock.png",
-      "models/setting/setting.css",
-      "models/setting/setting.js",
-      "common/fonts/mui.ttf",
-      "common/mui.js",
-      "common/app.css",
-      "common/mui.css"
-    ],
-    "refer": []
-  },
-  "models/chat/chat.html": {
-    "resources": [
-      "common/fonts/iconfont.woff",
-      "common/fonts/mui.ttf",
-      "models/chat/chat.css",
-      "common/mui.js",
-      "models/chat/zhangsan.png",
-      "models/chat/chat.js",
-      "common/app.css",
-      "common/mui.css",
-      "models/chat/lisi.png",
-      "common/fonts/iconfont.css"
-    ],
-    "refer": []
-  }
+	"models/login/login.html": {
+		"resources": [
+			"models/login/login.css",
+			"models/login/login.js",
+			"common/mui.js",
+			"common/mui.css",
+			"common/fonts/mui.ttf",
+			"common/bughd.min.js.js"
+		],
+		"refer": [
+			"models/main/main.html"
+		]
+	},
+	"models/main/main.html": {
+		"resources": [
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/mui.css",
+			"models/main/main.js",
+			"models/message/message.html",
+			"common/fonts/iconfont.css",
+			"common/fonts/iconfont.woff",
+			"models/main/main.css"
+		],
+		"refer": [
+			"models/discover/discover.html",
+			"models/mine/mine.html",
+			"models/address-book/address-book.html",
+			"models/message/message.html"
+		]
+	},
+	"models/discover/discover.html": {
+		"resources": [
+			"models/discover/discover.js",
+			"models/discover/discover.css",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/mui.css",
+			"img/avatar.png",
+			"models/discover/friend.png",
+			"models/discover/shake.png",
+			"models/discover/scan.png",
+			"models/discover/near.png",
+			"models/discover/shopping.png",
+			"models/discover/game.png",
+			"common/app.css",
+			"common/bughd.min.js.js"
+		],
+		"refer": [
+			"models/shake/shake.html",
+			"models/scan/scan.html"
+		]
+	},
+	"models/mine/mine.html": {
+		"resources": [
+			"models/mine/mine.js",
+			"models/mine/mine.css",
+			"common/mui.js",
+			"common/mui.css",
+			"img/avatar.png",
+			"common/fonts/mui.ttf",
+			"models/mine/code.png",
+			"models/mine/photo.png",
+			"models/mine/collection.png",
+			"models/mine/card.png",
+			"models/mine/wallet.png",
+			"models/mine/setting.png",
+			"models/mine/face.png",
+			"common/app.css"
+		],
+		"refer": [
+			"models/setting/setting.html",
+			"models/login/login.html"
+		]
+	},
+	"models/address-book/address-book.html": {
+		"resources": [
+			"models/address-book/address-book.js",
+			"models/address-book/address-book.css",
+			"common/mui.indexedlist.css",
+			"common/mui.indexedlist.js",
+			"common/fonts/mui.ttf",
+			"img/avatar.png",
+			"common/mui.js",
+			"common/mui.css",
+			"common/app.css"
+		],
+		"refer": [
+			"models/chat/im-chat.html"
+		]
+	},
+	"models/message/message.html": {
+		"resources": [
+			"models/message/message.js",
+			"models/message/message.css",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/mui.css",
+			"img/avatar.png",
+			"common/app.css",
+			"models/tuijian/tuijian.html"
+		],
+		"refer": [
+			"models/tuijian/tuijian.html",
+			"models/redian/redian.html",
+			"models/yule/yule.html",
+			"models/shehui/shehui.html",
+			"models/beijing/beijing.html",
+			"models/message/message.html"
+		]
+	},
+	"models/scan/scan.html": {
+		"resources": [
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"models/scan/shakedown.png",
+			"models/scan/shakeup.png",
+			"common/app.css",
+			"common/mui.css",
+			"models/scan/scan.js",
+			"models/scan/scan.css"
+		],
+		"refer": []
+	},
+	"models/shake/shake.html": {
+		"resources": [
+			"models/shake/shake.css",
+			"models/shake/shake.js",
+			"models/shake/shakedown.png",
+			"models/shake/shakeup.png",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/app.css",
+			"common/mui.css"
+		],
+		"refer": []
+	},
+	"models/setting/setting.html": {
+		"resources": [
+			"models/setting/lock.png",
+			"models/setting/setting.css",
+			"models/setting/setting.js",
+			"common/fonts/mui.ttf",
+			"common/mui.js",
+			"common/app.css",
+			"common/mui.css"
+		],
+		"refer": []
+	},
+	"models/chat/chat.html": {
+		"resources": [
+			"common/fonts/iconfont.woff",
+			"common/fonts/mui.ttf",
+			"models/chat/chat.css",
+			"common/mui.js",
+			"models/chat/zhangsan.png",
+			"models/chat/chat.js",
+			"common/app.css",
+			"common/mui.css",
+			"models/chat/lisi.png",
+			"common/fonts/iconfont.css"
+		],
+		"refer": []
+	},
+	"models/tuijian/tuijian.html": {
+		"refer": [
+			"models/tuijian/detail.html"
+		]
+	}
 }

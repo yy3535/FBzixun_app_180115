@@ -21,12 +21,12 @@ mui.plusReady(function () {
 			id:'message'
 		},
 		{
-			url:'../address-book/address-book.html',
-			id:'address-book'
-		},
-		{
 			url:'../discover/discover.html',
 			id:'discover'
+		},
+		{
+			url:'../address-book/address-book.html',
+			id:'address-book'
 		},
 		{
 			url:'../mine/mine.html',

@@ -12,3 +12,11 @@ document.addEventListener('showpage',function(){
 	window.indexedList = new mui.IndexedList(list);
 	
 });
+
+//
+document.getElementsByClassName('.mui-indexed-list-item').addEventListener('tap',function () {
+	mui.openWindow({
+		url:'../chat/im-chat.html',
+		id:'im-chat'
+	});
+});

@@ -43,17 +43,8 @@ document.getElementById('login').addEventListener('tap',function () {
 			localStorage.setItem('sessionToken',resp.sessionToken);
 			localStorage.setItem('username',resp.username);
 			mui.later(function () {
-				mui.openWindow({
-					url:'../main/main.html',
-					id:'main',
-					show:{
-						aniShow:'none'
-					},
-					styles:{
-						hardwareAccelerated:true
-					}
-					
-				});
+				plus.webview.getLaunchWebview().show();				
+				
 			},1500);
 			
 		},

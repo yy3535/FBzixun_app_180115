@@ -11,3 +11,53 @@ html,body{
 	color: #8f8f94;
 	float: right;
 }
+
+.mui-bar{
+	background: #da3838;
+	height: 44px;
+	padding: .19rem .48rem;
+	position: fixed;
+	z-index: 5;
+}
+.mui-bar .mui-title{
+	right:initial;
+	color: #fff;
+	font-size:1.3rem;
+	font-weight: 600;
+	line-height: 2.8rem;
+}
+.mui-title .icon-shuaxin{
+	margin-left: 0.3rem;
+}
+.mui-input-group{
+	border-radius: 20px;
+}
+.mui-bar-nav.mui-bar .mui-icon{
+	margin-right: 170px;
+}
+
+/*导航栏*/
+html,
+body {
+	background-color: #fff;
+}
+
+.mui-bar-nav~.mui-content .mui-slider.mui-fullscreen {
+	top: 44px;
+	height: auto;
+}
+
+.mui-slider-indicator.mui-segmented-control{
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item{
+	color: #444;
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	font-weight: 700;
+    color: #da3838;
+}
+.mui-table-view{
+	top:38px;
+}
